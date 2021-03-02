@@ -1,8 +1,8 @@
-weight = 2
+image = "images/home-slides/slide-01.jpg"
+linkTo = "#"
 number = "02"
+tagline = "Give us stunning slides"
 title = "Multipurpose responsive theme"
-tagline =  "Give us stunning slides"
 titleColored = "We are the new"
 titleOutline = "kids on the block"
-linkTo = "#"
-image = "images/home-slides/slide-01.jpg"
+weight = 2
