@@ -1,0 +1,28 @@
+---
+label: new-frontmatter
+hide_body: true
+fields:
+- type: number
+  name: weight
+  label: weight
+- type: text
+  name: number
+  label: number
+- type: text
+  name: title
+  label: title
+- type: text
+  name: tagline
+  label: tagline
+- type: text
+  name: titleColored
+  label: titleColored
+- type: text
+  name: titleOutline
+  label: titleOutline
+- type: text
+  name: linkTo
+  label: linkTo
+- type: file
+  name: image
+  label: image
