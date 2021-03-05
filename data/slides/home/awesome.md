@@ -1,6 +1,6 @@
 +++
 image = "/uploads/screenshot-2021-03-05-at-09-17-47.png"
-linkTo = ""
+linkTo = "#"
 number = "2"
 tagline = "Here is our awesome case"
 title = "Awesome"
