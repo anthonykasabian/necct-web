@@ -27,4 +27,5 @@ fields:
   name: title
   label: title
 pages:
+- data/slides/home/awesome.md
 - data/slides/home/second.toml
