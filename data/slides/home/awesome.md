@@ -1,5 +1,4 @@
 +++
-draft = true
 image = "/uploads/screenshot-2021-03-05-at-09-17-47.png"
 linkTo = ""
 number = "02"
