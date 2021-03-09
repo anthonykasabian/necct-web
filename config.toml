@@ -1,43 +1,41 @@
 baseURL = "/"
 languageCode = "de-DE"
-title = "NECCT"
 theme = "necct-theme"
-
-[menu]
-    [[menu.main]]
-        identifier = "start"
-        name = "Start"
-        url = "/"
-        weight = "1"
-    [[menu.main]]
-        identifier = "casestudies"
-        name = "Casestudies"
-        url = "/casestudies/"
-        weight = "2"
-    [[menu.main]]
-        identifier = "necct"
-        name = "Necct"
-        url = "/about/"
-        weight = "3"
-    [[menu.main]]
-        identifier = "news"
-        name = "News"
-        url = "/news/"
-        weight = "4"
-    [[menu.main]]
-        identifier = "Category 1"
-        parent="news"
-        name = "Category 1"
-        url = "/news/category1/"
-        weight = "1"
-    [[menu.main]]
-        identifier = "Category 2"
-        parent="news"
-        name = "Category 2"
-        url = "/news/category2/"
-        weight = "2"
-    [[menu.main]]
-        identifier = "hello"
-        name = "Hello"
-        url = "/hello/"
-        weight = "5"
+title = "NECCT"
+[[menu.main]]
+identifier = "Category 2"
+name = "Category 2"
+parent = "News"
+url = "/news/category2/"
+weight = 2
+[[menu.main]]
+identifier = "Category 1"
+name = "Category 1"
+parent = "News"
+url = "/news/category1/"
+weight = 1
+[[menu.main]]
+identifier = "hello"
+name = "Hello"
+url = "/hello/"
+weight = 5
+[[menu.main]]
+identifier = "news"
+name = "News"
+url = "/news/"
+weight = 4
+[[menu.main]]
+identifier = "necct"
+name = "Necct"
+url = "/about/"
+weight = 3
+[[menu.main]]
+identifier = "casestudies"
+name = "Casestudies"
+url = "/casestudies/"
+weight = 2
+[[menu.main]]
+identifier = "start"
+name = "Start"
+url = "/"
+weight = 1

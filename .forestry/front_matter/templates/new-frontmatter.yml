@@ -26,5 +26,3 @@ fields:
 - type: text
   name: title
   label: title
-pages:
-- data/slides/home/second.toml
