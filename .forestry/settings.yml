@@ -5,7 +5,7 @@ admin_path:
 webhook_url: 
 sections:
 - type: directory
-  path: content/pagesections
+  path: '"content/pagesections"'
   label: Page Sections
   create: all
   match: "**/*"
