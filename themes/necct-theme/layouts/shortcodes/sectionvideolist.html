@@ -1,0 +1,44 @@
+{{ $fileref := .Page.Params.inputFile2}}
+
+{{/* printf "%#v"  $fileref*/}}
+
+{{with .Site.GetPage $fileref}}
+<section class="services-content-block">
+    <div class="video-bg">
+        <video src="{{.Params.videoLink}}" muted loop autoplay></video>
+    </div>
+    <!-- end video-bg -->
+    <div class="container">
+        <div class="row">
+            <div class="col-12 wow fadeIn">
+                <h6>{{.Params.tagline}}</h6>
+                <h2>{{.Params.sectionTitle | default "Creation of friendly web interface layout"}} </h2>
+            </div>
+            <!-- end col-12 -->
+            {{ range .Params.listelement }}
+            <div class="col-md-4 wow fadeIn" data-wow-delay="{{.animationDeay}}">
+                <div class="content-box">
+                    <div class="left"><small>{{.counter}}</small><span></span></div>
+                    <!-- end left -->
+                    <div class="right">
+                        <h4>{{.title}}</h4>
+                        <p>{{.intro}}</p>
+                        <ul>
+                            {{range $key := .items}}
+                            <li>{{$key}}</li>
+                            {{end}}
+                        </ul>
+                    </div>
+                    <!-- end right -->
+                </div>
+                <!-- end content-box -->
+            </div>
+            <!-- end col-4 -->
+            {{end}}
+        </div>
+        <!-- end row -->
+    </div>
+    <!-- end container -->
+</section>
+<!-- end services-content-block -->
+{{end}}

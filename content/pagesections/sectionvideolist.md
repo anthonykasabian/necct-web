@@ -1,0 +1,33 @@
++++
+tagline = "SMOOTH INTERFACE INTERACTION 2"
+underlayText = "FUTURE"
+sectionTitle = ""
+columnLeft = "To create a powerful project once, a bit of luck is enough."
+linkTo = "#"
+videoLink = "videos/video.mp4"
+
+[[listelement]]
+title = "STRATEGY"
+counter = "1"
+animationDelay = "0s"
+intro = "Creativity for us something personal."
+items = ["UX strategy", "Concept development", "Content strategy", "Online marketting", "User testing &amp; research"]
+
+[[listelement]]
+title = "UI-UX LAYOUT"
+counter = "2"
+animationDelay = "0.05s"
+intro = "Creativity for us something personal"
+items = ["User Interface", "Prototype development", "Content strategy", "Online research", "Layout wireframe"]
+
+[[listelement]]
+title = "Ramp Up"
+counter = "3"
+animationDelay = "0.10s"
+intro = "Creativity for us something personal"
+items = ["CMS Development", "Back-end Prototype", "Coding strategy", "Beta testing", "Audience growth"]
++++
+
+Thanks to our experience and expertise, we were entrusted with the development of a new website for **Araxia**’s capital city, Riyadh, in collaboration with a well-recognized local agency.
+
+Design very few **companies** in the world have ventured on a project of such tremendous scope and complex.

@@ -6,12 +6,11 @@
 {{ partial "navigation.html" . }}
 {{ partial "navbar.html" }}
 {{ partial "sliderheader.html" . }}
-{{ partial "section.html" . }}
-{{ partial "sectionVideoList.html" . }}
+
+
+{{- block "main" . }}{{- end }}
 {{ partial "sectionWorks.html" . }}
-<div id="content">
-    {{- block "main" . }}{{- end }}
-</div>
+
 {{- partial "footer.html" . -}}
 <!-- JS FILES -->
 <script src="js/jquery.min.js"></script>
