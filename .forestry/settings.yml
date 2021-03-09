@@ -5,6 +5,26 @@ admin_path:
 webhook_url: 
 sections:
 - type: directory
+  path: pagesections
+  label: Page Sections
+  create: all
+  match: "**/*"
+- type: directory
+  path: slides
+  label: Slides
+  create: all
+  match: "**/*"
+- type: directory
+  path: casestudies
+  label: Casestudies
+  create: all
+  match: "**/*"
+- type: directory
+  path: news
+  label: News
+  create: all
+  match: "**/*"
+- type: directory
   path: data
   label: Data
   create: all
