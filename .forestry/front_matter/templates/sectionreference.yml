@@ -5,3 +5,15 @@ fields:
 - type: text
   name: inputFile
   label: inputFile
+- name: sectionreference
+  type: select
+  default: pagesections/sectionhomelight.md
+  config:
+    required: false
+    options: []
+    source:
+      type: pages
+      section: page-sections
+      file: 
+      path: 
+  label: sectionreference
