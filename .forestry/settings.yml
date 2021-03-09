@@ -5,7 +5,7 @@ admin_path:
 webhook_url: 
 sections:
 - type: directory
-  path: pagesections
+  path: content/pagesections
   label: Page Sections
   create: all
   match: "**/*"
@@ -20,7 +20,7 @@ sections:
   create: all
   match: "**/*"
 - type: directory
-  path: news
+  path: content/news
   label: News
   create: all
   match: "**/*"
