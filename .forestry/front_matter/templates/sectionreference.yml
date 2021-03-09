@@ -17,3 +17,5 @@ fields:
       file: 
       path: 
   label: sectionreference
+pages:
+- content/_index.md
