@@ -5,9 +5,9 @@ fields:
 - type: text
   name: inputFile
   label: inputFile
-- name: sectionreference
+- name: inputfile2
   type: select
-  default: pagesections/sectionhomelight.md
+  default: []
   config:
     required: false
     options: []
@@ -16,6 +16,6 @@ fields:
       section: page-sections
       file: 
       path: 
-  label: sectionreference
+  label: inputFile2
 pages:
 - content/_index.md
