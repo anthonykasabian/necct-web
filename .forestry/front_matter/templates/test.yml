@@ -1,0 +1,13 @@
+---
+label: test
+hide_body: false
+fields:
+- name: blocks
+  type: blocks
+  label: Blocks
+  template_types:
+  - slides
+  - new-frontmatter
+  config:
+    min: 
+    max: 
