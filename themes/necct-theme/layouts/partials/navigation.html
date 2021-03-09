@@ -4,18 +4,18 @@
     <div class="inner" data-tilt data-tilt-perspective="2000">
         <div class="menu">
             <ul>
-                <li><a href="#">START</a>
+                {{ range .Site.Menus.main }}
+                <li>
+                    <a href="{{ .URL }}">{{.Name}}</a>
+                    {{ if .HasChildren}}
                     <ul>
-                        <li><a href="index.html">Slider</a></li>
-                        <li><a href="index-video.html">Video</a></li>
-                        <li><a href="index-particles.html">Particles</a></li>
-                        <li><a href="index-perspective.html">Perspective</a></li>
+                        {{ range .Children }}
+                            <li><a href="{{.URL}}">{{.Name}}</a></li>
+                        {{ end }}
                     </ul>
+                    {{ end }}
                 </li>
-                <li><a href="works.html">WORKS</a></li>
-                <li><a href="brabus.html">BRABUS</a></li>
-                <li><a href="news.html">NEWS</a></li>
-                <li><a href="hello.html">HELLO</a></li>
+                {{ end }}
             </ul>
         </div>
         <!-- end menu -->

@@ -2,11 +2,13 @@
 <html>
 {{ partial "head.html" . }}
 <body>
-{{- partial "header.html" . -}}
 {{ partial "preloader.html" }}
-{{ partial "navigation.html" }}
+{{ partial "navigation.html" . }}
 {{ partial "navbar.html" }}
-{{- partial "sliderheader.html" . -}}
+{{ partial "sliderheader.html" . }}
+{{ partial "section.html" . }}
+{{ partial "sectionVideoList.html" . }}
+{{ partial "sectionWorks.html" . }}
 <div id="content">
     {{- block "main" . }}{{- end }}
 </div>

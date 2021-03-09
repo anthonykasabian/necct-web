@@ -1,3 +1,4 @@
++++
 weight = 1
 number = "01"
 title = "Multipurpose responsive theme"
@@ -6,3 +7,4 @@ titleColored = "We are"
 titleOutline = "NECCT"
 linkTo = "#"
 image = "images/home-slides/slide-01.jpg"
++++

@@ -1,3 +1,4 @@
++++
 weight = 2
 number = "02"
 title = "Multipurpose responsive theme"
@@ -6,3 +7,4 @@ titleColored = "We are the new"
 titleOutline = "kids on the block"
 linkTo = "#"
 image = "images/home-slides/slide-01.jpg"
++++

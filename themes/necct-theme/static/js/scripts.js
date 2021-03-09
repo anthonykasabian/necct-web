@@ -1,8 +1,8 @@
 (function($) {
 	$(document).ready(function() {
 		"use strict";
-		
-	
+
+
 		// WORKS BACKGROUND
 		$(".project-box").hover(function () {
 		$(".works").css("background-color", $(this).data('bg'));
@@ -11,11 +11,11 @@
         });
 		}, function(){
 			$(".works").css("background-color", '');
-		});	
-		
-		
-		
-		
+		});
+
+
+
+
 		// TYPEWRITER
 			$("#typewriter").typewriter({
 				prefix : "",
@@ -24,8 +24,8 @@
 				waitingTime : 1500,
 				blinkSpeed : 800
 			});
-		
-		
+
+
 		// SLIDER
 			var swiper = new Swiper('.swiper-slider', {
 			speed: 600,
@@ -37,23 +37,23 @@
 				},
 			},
 			});
-	
-		
-	
+
+
+
 		// EQUALIZER TOGGLE
 			var source = "audio/audio.mp3";
 			var audio = new Audio(); // use the constructor in JavaScript, just easier that way
 			audio.addEventListener("load", function() {
-			  audio.play();
+			  audio.pause();
 			}, true);
 			audio.src = source;
-			audio.autoplay = true;
+			audio.autoplay = false;
 			audio.loop = true;
 			audio.volume = 0.2;
-		
 
-			$('.equalizer').click();		
-			var playing = true;		
+
+			$('.equalizer').click();
+			var playing = true;
 			$('.equalizer').on('click', function(e) {
 				if (playing == false) {
 			  audio.play();
@@ -64,8 +64,8 @@
 					playing = false;
 				}
 			});
-	
-	
+
+
 		// EQUALIZER
 				function randomBetween(range) {
 					var min = range[0],
@@ -98,14 +98,14 @@
 				  [16, 3]
 				];
 				$('.equalizer').equalizerAnimation(250, barsHeight);
-	
+
 		// HAMBURGER AUDIO
 			document.getElementById("hamburger-menu").addEventListener('click', function(e) {
 			document.getElementById("hamburger-hover").play();
 	  	});
-		
-		
-	
+
+
+
 		// DATA BACKGROUND IMAGE
 			var pageSection = $(".bg-image");
 			pageSection.each(function(indx){
@@ -113,9 +113,9 @@
 					$(this).css("background-image", "url(" + $(this).data("background") + ")");
 				}
 			});
-	
-	
-		
+
+
+
 		// HAMBURGER MENU
 		$('.hamburger').on('click', function(e) {
 			if ($(".navigation-menu").hasClass("active")) {
@@ -136,15 +136,15 @@
 			}
 			$(this).toggleClass("active");
 		});
-		
-		
-		
+
+
+
 		// PAGE TRANSITION
 		$('body a').on('click', function(e) {
-			
+
 			if (typeof $( this ).data('fancybox') == 'undefined') {
-			e.preventDefault(); 	
-			var url = this.getAttribute("href"); 
+			e.preventDefault();
+			var url = this.getAttribute("href");
 			if( url.indexOf('#') != -1 ) {
 			var hash = url.substring(url.indexOf('#'));
 
@@ -167,13 +167,13 @@
 			$('.transition-overlay').toggleClass("active");
 			setTimeout(function(){
 			window.location = url;
-			},1000); 
+			},1000);
 
 			}
 			}
 			});
-		
-		
+
+
 		// PAGE HEADER FADE
 			var divs = $('header');
 			$(window).on('scroll', function() {
@@ -183,16 +183,16 @@
 				divs.css({ 'transition' : ("0.05s ease-in-out") });
 			});
 
-		
-		
-		
+
+
+
 		});
-	// END JQUERY	
-	
-	
-	
-	
-		// WOW ANIMATION 
+	// END JQUERY
+
+
+
+
+		// WOW ANIMATION
 			wow = new WOW(
 				{
 					animateClass: 'animated',
@@ -200,13 +200,13 @@
 				}
 				);
 			wow.init();
-	
-	
+
+
 		// PRELOADER
 			$(window).load(function(){
-				$("body").addClass("page-loaded");	
+				$("body").addClass("page-loaded");
 			});
-	
+
 		// COUNTER
 			 $(document).scroll(function(){
 				$('.odometer').each( function () {
@@ -220,7 +220,7 @@
 					}
 				});
 			});
-	
-	
-	
-})(jQuery);	
+
+
+
+})(jQuery);
