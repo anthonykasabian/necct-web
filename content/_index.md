@@ -1,7 +1,8 @@
 +++
 inputFile = "pagesections/sectionhomelight.md"
 inputFile2 = "pagesections/sectionvideolist.md"
-+++
+sectionreference = ""
 
++++
 {{< sectionarea >}}
 {{< sectionvideolist >}}
