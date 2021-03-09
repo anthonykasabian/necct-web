@@ -1,6 +1,7 @@
 ---
 label: Slides
 hide_body: true
+display_field: title
 fields:
 - type: number
   name: weight
