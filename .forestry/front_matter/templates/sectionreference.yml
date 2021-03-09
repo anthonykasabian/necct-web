@@ -1,0 +1,7 @@
+---
+label: sectionreference
+hide_body: false
+fields:
+- type: text
+  name: inputFile
+  label: inputFile
