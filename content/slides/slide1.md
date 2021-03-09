@@ -1,10 +1,11 @@
 +++
-weight = 1
+image = "images/home-slides/slide-01.jpg"
+linkTo = "#"
 number = "01"
-title = "Multipurpose responsive theme"
-tagline =  "Give us stunning slides"
+tagline = "Give us stunning slides"
+title = "New Slide 01"
 titleColored = "We are"
 titleOutline = "NECCT"
-linkTo = "#"
-image = "images/home-slides/slide-01.jpg"
+weight = 1
+
 +++
