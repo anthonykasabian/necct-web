@@ -1,3 +1,36 @@
+{{define "header"}}
+<header class="page-header">
+    <div class="video-bg">
+        <video src="/videos/video2.mp4" muted loop autoplay></video>
+    </div>
+    <!-- end video-bg -->
+    <div class="container">
+        <h1>STUDIES</h1>
+        <p>TO CREATE A POWERFUL PROJECT ONCE, A BIT OF LUCK IS ENOUGH</p>
+    </div>
+    <!-- end container -->
+    <aside class="left-side">
+        <ul>
+            <li><a href="#">FACEBOOK</a></li>
+            <li><a href="#">BEHANCE</a></li>
+            <li><a href="#">DRIBBBLE</a></li>
+        </ul>
+    </aside>
+    <!-- end left-side -->
+    <div class="scroll-down"><small>SCROLL DOWN</small><span></span></div>
+    <!-- end scroll-down -->
+    <div class="sound"> <span> SOUND </span>
+        <div class="equalizer">
+            <div class="holder"> <span></span> <span></span> <span></span> <span></span><span></span><span></span> </div>
+            <!-- end holder -->
+        </div>
+        <!-- end equalizer -->
+    </div>
+    <!-- end sound -->
+</header>
+<!-- end header -->
+{{end}}
+
 {{ define "main" }}
 
 <section class="works">
@@ -11,7 +44,7 @@
             <div class="col-12">
                 {{ range .Pages }}
                 <div class="project-box wow fadeIn" data-bg="#faf8ed">
-                    <figure> <a href="images/featured01.jpg" data-fancybox><img src="/images/featured01.jpg" alt="Image"></a></figure>
+                    <figure> <a href="/images/featured01.jpg" data-fancybox><img src="/images/featured01.jpg" alt="Image"></a></figure>
                     <div class="content-box">
                         <div class="inner"> <small>{{.Params.tagline}}</small>
                             <h3>{{.Params.title | safeHTML}}</h3>
