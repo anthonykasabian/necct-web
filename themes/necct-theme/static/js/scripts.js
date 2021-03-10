@@ -27,6 +27,8 @@
         // SLIDER
         var swiper = new Swiper('.swiper-slider', {
             speed: 600,
+            loop: true,
+            direction: 'horizontal',
             autoplay: {
                 delay: 5000
             },

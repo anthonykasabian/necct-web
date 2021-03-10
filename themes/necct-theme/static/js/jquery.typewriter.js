@@ -1,5 +1,5 @@
-(function($) {
-    $.fn.typewriter = function(options) {
+(function ($) {
+    $.fn.typewriter = function (options) {
         var settings = $.extend({
             prefix: "Prefix",
             text: ["Hey", "This is cool, isn't it?"],
@@ -9,7 +9,7 @@
             blinkSpeed: 1000
         }, options);
 
-        return this.each(function() {
+        return this.each(function () {
             var that = this;
             var domHtml = '';
             var totalLength = 0;
@@ -33,7 +33,7 @@
                 $('#typewriter-text').html(str.substring(0, str.length - 1));
             }
 
-            setInterval(function() {
+            setInterval(function () {
                 $('#typewriter-suffix').animate({
                     opacity: 0
                 }).animate({
@@ -42,8 +42,8 @@
             }, settings.blinkSpeed);
 
             var blobURL = URL.createObjectURL(new Blob(['(',
-                function() {
-                    onmessage = function(e) {
+                function () {
+                    onmessage = function (e) {
                         self.currentStringIndex = 0;
                         self.currentCharIndex = 0;
                         self.settings = e.data;
@@ -63,7 +63,7 @@
                             }
                             once = false;
                             sInt = null;
-                            eInt = setInterval(function() {
+                            eInt = setInterval(function () {
                                 var data = [];
                                 data[0] = 1;
                                 postMessage(data);
@@ -73,7 +73,7 @@
                             clearInterval(eInt);
                             eInt = null;
                             var currentString = settings.text[Math.floor(currentStringIndex / 2)];
-                            sInt = setInterval(function() {
+                            sInt = setInterval(function () {
                                 var data = [];
                                 data[0] = 0;
                                 data[1] = currentString.charAt(currentCharIndex);
@@ -96,7 +96,7 @@
             URL.revokeObjectURL(blobURL);
 
             worker.postMessage(settings);
-            worker.onmessage = function(e) {
+            worker.onmessage = function (e) {
                 var data = e.data;
                 if (data[0] === 0) {
                     appendCharacter(data[1]);
