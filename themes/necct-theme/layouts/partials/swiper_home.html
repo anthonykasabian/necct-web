@@ -1,6 +1,6 @@
 <div class="swiper-slider">
     <div class="swiper-wrapper">
-        {{ $homeslides := where $.Site.RegularPages "Section" "slides"  }}
+        {{ $homeslides := where $.Site.RegularPages "Section" "slides" }}
         {{ range $homeslides }}
         <div class="swiper-slide" data-tilt data-tilt-max="5" data-tilt-speed="500" data-tilt-perspective="1500">
             <div class="slide-inner bg-image" data-background="{{ .Params.image }}">
@@ -11,14 +11,16 @@
                     <!-- end tagline -->
                     <h1>{{ .Params.titleColored }}<br>
                         <span>{{ .Params.titleOutline }}</span></h1>
-                    <div class="slide-btn"> <a href="{{ .Params.linkTo}}">
-                        <div class="lines"> <span></span> <span></span> </div>
+                    <div class="slide-btn"><a href="{{ .Params.linkTo}}">
+                        <div class="lines"><span></span> <span></span></div>
                         <!-- end lines -->
-                        <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                        <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+                             x="0px" y="0px"
                              viewBox="0 0 104 104" enable-background="new 0 0 104 104" xml:space="preserve">
-                <circle class="video-play-circle" fill="none" stroke="#fff" stroke-width="2" stroke-miterlimit="1" cx="52" cy="52" r="50"/>
+                <circle class="video-play-circle" fill="none" stroke="#fff" stroke-width="2" stroke-miterlimit="1"
+                        cx="52" cy="52" r="50"/>
               </svg>
-                        <b>LEARN MORE</b> </a> </div>
+                        <b>LEARN MORE</b> </a></div>
                     <!-- end slide-btn -->
                 </div>
                 <!-- end container -->
@@ -27,9 +29,6 @@
         </div>
         <!-- end swiper-slide -->
         {{ end }}
-
-
-
     </div>
     <!-- end swiper-wrapper -->
     <div class="swiper-pagination"></div>

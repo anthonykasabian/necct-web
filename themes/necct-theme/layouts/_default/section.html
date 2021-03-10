@@ -1,0 +1,40 @@
+{{ define "main" }}
+
+<section class="works">
+    <div class="container">
+        <div class="row">
+            <div class="col-12 wow fadeIn">
+                <h6>SMOOTH INTERFACE INTERACTION</h6>
+                <h2 data-text="Works">Our selected showcases and portfolios </h2>
+            </div>
+            <!-- end col-12 -->
+            <div class="col-12">
+                {{ range .Pages }}
+                <div class="project-box wow fadeIn" data-bg="#faf8ed">
+                    <figure> <a href="images/featured01.jpg" data-fancybox><img src="/images/featured01.jpg" alt="Image"></a></figure>
+                    <div class="content-box">
+                        <div class="inner"> <small>{{.Params.tagline}}</small>
+                            <h3>{{.Params.title | safeHTML}}</h3>
+                            <div class="custom-link"> <a href="{{ .RelPermalink }}">
+                                <div class="lines"> <span></span> <span></span> </div>
+                                <!-- end lines -->
+                                <b>LEARN MORE</b></a> </div>
+                            <!-- end custom-link -->
+                        </div>
+                        <!-- end inner -->
+                    </div>
+                    <!-- end content-box -->
+                </div>
+                <!-- end project-box -->
+                {{end}}
+
+            </div>
+            <!-- end col-12 -->
+        </div>
+        <!-- end row -->
+    </div>
+    <!-- end container -->
+</section>
+<!-- end works -->
+
+{{ end }}
