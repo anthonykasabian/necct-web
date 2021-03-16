@@ -29,12 +29,13 @@ list_item_list = "* CMS Development\n* Back-end Prototype\n* Coding strategy\n* 
 list_item_text = "Creativity for us something personal."
 list_item_title = "BACK-END DEV"
 [[page_sections]]
-section_title = ""
-tagline = ""
+section_title = "Our selected works and showcases"
+tagline = "SMOOTH INTERFACE INTERACTION"
 template = "section-works"
-underlay_title = ""
+underlay_title = "WORKS"
 works_page_link = []
-works_selection = []
+[[page_sections.works_selection]]
+work_item = []
 [[page_sections]]
 page_link = []
 section_text = ""
