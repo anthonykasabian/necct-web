@@ -1,4 +1,51 @@
 ---
 label: Section Works
 hide_body: true
-fields: []
+fields:
+- name: tagline
+  type: text
+  config:
+    required: false
+  label: Tagline
+- name: section_title
+  type: text
+  config:
+    required: false
+  label: Section Title
+- name: underlay_title
+  type: text
+  config:
+    required: false
+  label: Underlay Title
+- name: works_selection
+  type: field_group_list
+  fields:
+  - name: work_item
+    type: select
+    default: []
+    config:
+      required: false
+      options: []
+      source:
+        type: pages
+        section: casestudies-2c059bb2-4692-4fc0-8701-f8cd51faccd0
+        file: 
+        path: 
+    label: Work Item
+  config:
+    min: 
+    max: 
+    labelField: 
+  label: Works Selection
+- name: works_page_link
+  type: select
+  default: []
+  config:
+    required: false
+    options: []
+    source:
+      type: pages
+      section: page-sections
+      file: 
+      path: 
+  label: Works Page Link
