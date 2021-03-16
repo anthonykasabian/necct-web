@@ -1,0 +1,42 @@
+---
+label: Section Team
+hide_body: true
+fields:
+- name: tagline
+  type: text
+  config:
+    required: false
+  label: Tagline
+- name: section_title
+  type: text
+  config:
+    required: false
+  label: Section Title
+- name: underlay_title
+  type: text
+  config:
+    required: false
+  label: Underlay Title
+- name: team_members
+  type: field_group_list
+  fields:
+  - name: member_role
+    type: text
+    config:
+      required: false
+    label: Member Role
+  - name: member_name
+    type: text
+    config:
+      required: false
+    label: Member Name
+  - name: member_image
+    type: file
+    config:
+      maxSize: 64
+    label: Member Image
+  config:
+    min: 
+    max: 
+    labelField: 
+  label: Team Members

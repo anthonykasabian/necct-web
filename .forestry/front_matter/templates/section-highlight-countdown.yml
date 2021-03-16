@@ -1,0 +1,47 @@
+---
+label: Section Highlight Countdown
+hide_body: true
+fields:
+- name: tagline
+  type: text
+  config:
+    required: false
+  label: Tagline
+- name: section_title
+  type: text
+  config:
+    required: false
+  label: Section Title
+- name: underlay_title
+  type: text
+  config:
+    required: false
+  label: Underlay Title
+- name: countdown_elements
+  type: field_group_list
+  fields:
+  - name: element_title
+    type: text
+    config:
+      required: false
+    label: Element Title
+  - name: element_count
+    type: number
+    label: Element Count
+    description: ''
+    default: 0
+    required: true
+    config:
+      min: 
+      max: 
+      step: 
+  - name: element_image
+    type: file
+    config:
+      maxSize: 64
+    label: Element Image
+  config:
+    min: 
+    max: 
+    labelField: 
+  label: Countdown Elements

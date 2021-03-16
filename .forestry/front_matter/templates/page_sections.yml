@@ -1,0 +1,17 @@
+---
+label: page_sections
+hide_body: true
+fields:
+- name: page_sections
+  type: blocks
+  label: Page Sections
+  template_types:
+  - section-two-column-text
+  - section-3-column-list-video
+  - section-clients
+  - section-process
+  - section-highlight-countdown
+  - section-team
+  config:
+    min: 
+    max: 
