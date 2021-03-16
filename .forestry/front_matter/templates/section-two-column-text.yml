@@ -1,4 +1,19 @@
 ---
 label: Section Two Column Text
 hide_body: false
-fields: []
+fields:
+- name: tagline
+  type: text
+  config:
+    required: false
+  label: Tagline
+- name: section_title
+  type: text
+  config:
+    required: false
+  label: Section Title
+- name: underlay_title
+  type: text
+  config:
+    required: false
+  label: Underlay Title
