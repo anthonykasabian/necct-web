@@ -1,4 +1,40 @@
 ---
 label: Section Slider
 hide_body: true
-fields: []
+fields:
+- name: slider_items
+  type: field_group_list
+  fields:
+  - name: tagline
+    type: text
+    config:
+      required: false
+    label: Tagline
+  - name: title_colored
+    type: text
+    config:
+      required: false
+    label: Title Colored
+  - name: title_outline
+    type: text
+    config:
+      required: false
+    label: Title Outline
+  - name: call_to_action_label
+    type: text
+    config:
+      required: false
+    label: Call to action label
+  - name: is_video
+    type: boolean
+    label: Is video
+  - name: slider_media
+    type: file
+    config:
+      maxSize: 64
+    label: Slider Media
+  config:
+    min: 
+    max: 
+    labelField: 
+  label: Slider Items
