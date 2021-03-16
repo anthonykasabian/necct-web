@@ -45,10 +45,12 @@ template = "section-work-with-us"
 underlay_title = "COLLAB"
 [[page_sections]]
 call_to_action = []
-client_list = []
-section_text = ""
-section_title = ""
-tagline = ""
+section_text = "DO YOU HAVE A PROJECT OPPORTUNITY, OR ARE YOU JUST A LOOKING TO GET CREATIVE SOLUTIONS?"
+section_title = "Our clients"
+tagline = "HAPPY WITH US"
 template = "section-clients"
+[[page_sections.client_list]]
+client_image = "/uploads/logo01.png"
+client_name = "Client 1"
 
 +++
