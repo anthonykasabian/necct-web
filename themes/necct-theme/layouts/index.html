@@ -15,7 +15,7 @@
 
 {{ define "main" }}
 
-{{ range .Params.page_sections}}
+{{ range .Params.page_sections }}
     {{if eq "section-two-column-text" .template}}
         {{ partial "blocks/section_two_column_text" . }}
     {{end}}
@@ -23,7 +23,7 @@
         {{ partial "blocks/section_three_column_list_video" . }}
     {{end}}
     {{if eq "section-works" .template}}
-        {{ partial "blocks/section_works" . }}
+        {{ partial "blocks/section_works" .template (dict "template" . "ctx" $) }}
     {{end}}
 {{end}}
 

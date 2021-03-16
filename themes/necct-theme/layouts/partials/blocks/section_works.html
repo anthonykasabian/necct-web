@@ -7,7 +7,9 @@
             </div>
             <!-- end col-12 -->
             <div class="col-12">
-                {{ range .Pages }}
+
+                {{range .works_selection}}
+
                 <div class="project-box wow fadeIn" data-bg="#faf8ed">
                     <figure> <a href="/images/featured01.jpg" data-fancybox><img src="/images/featured01.jpg" alt="Image"></a></figure>
                     <div class="content-box">
@@ -25,6 +27,7 @@
                 </div>
                 <!-- end project-box -->
                 {{end}}
+
 
             </div>
             <!-- end col-12 -->
