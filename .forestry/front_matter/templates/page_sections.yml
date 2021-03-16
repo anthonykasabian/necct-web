@@ -6,14 +6,15 @@ fields:
   type: blocks
   label: Page Sections
   template_types:
+  - section-slider
   - section-two-column-text
   - section-3-column-list-video
   - section-clients
+  - section-works
+  - section-work-with-us
   - section-process
   - section-highlight-countdown
   - section-team
-  - section-work-with-us
-  - section-works
   config:
     min: 
     max: 
