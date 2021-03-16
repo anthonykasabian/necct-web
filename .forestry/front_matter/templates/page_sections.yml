@@ -12,6 +12,8 @@ fields:
   - section-process
   - section-highlight-countdown
   - section-team
+  - section-work-with-us
+  - section-works
   config:
     min: 
     max: 
