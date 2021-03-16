@@ -17,3 +17,15 @@ fields:
   config:
     required: false
   label: Underlay Title
+- name: call_to_action
+  type: select
+  default: []
+  config:
+    required: false
+    options: []
+    source:
+      type: pages
+      section: 
+      file: 
+      path: 
+  label: Call to action
