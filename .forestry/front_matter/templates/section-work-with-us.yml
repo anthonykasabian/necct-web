@@ -1,4 +1,40 @@
 ---
 label: Section Work With Us
 hide_body: false
-fields: []
+fields:
+- name: tagline
+  type: text
+  config:
+    required: false
+  label: Tagline
+- name: section_title
+  type: text
+  config:
+    required: false
+  label: Section Title
+- name: underlay_title
+  type: text
+  config:
+    required: false
+  label: Underlay Title
+- name: section_text
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: false
+    schema:
+      format: markdown
+  label: Section text
+- name: page_link
+  type: select
+  default: []
+  config:
+    required: false
+    options: []
+    source:
+      type: pages
+      section: pages
+      file: 
+      path: 
+  label: Page Link
