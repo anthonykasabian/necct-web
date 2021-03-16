@@ -22,14 +22,14 @@ fields:
   fields:
   - name: work_item
     type: select
-    default: casestudies/case-01.md
+    default: title
     config:
       required: false
       options: []
       source:
-        type: pages
+        type: documents
         section: casestudies-2c059bb2-4692-4fc0-8701-f8cd51faccd0
-        file: 
+        file: content/casestudies/case-02.md
         path: 
     label: Work Item
   config:
