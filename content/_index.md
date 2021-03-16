@@ -51,6 +51,12 @@ tagline = "HAPPY WITH US"
 template = "section-clients"
 [[page_sections.client_list]]
 client_image = "/uploads/logo01.png"
+client_name = "Client 4"
+[[page_sections.client_list]]
+client_image = "/uploads/logo01.png"
+client_name = "Client 3"
+[[page_sections.client_list]]
+client_image = "/uploads/logo01.png"
 client_name = "Client"
 [[page_sections.client_list]]
 client_image = "/uploads/logo01.png"
