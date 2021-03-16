@@ -17,6 +17,11 @@ fields:
   config:
     required: false
   label: Underlay Title
+- name: section_left_text
+  type: text
+  config:
+    required: false
+  label: Section Left Text
 - name: section_text
   type: textarea
   default: ''
