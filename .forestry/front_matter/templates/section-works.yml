@@ -27,7 +27,7 @@ fields:
       required: false
       options: []
       source:
-        type: pages
+        type: documents
         section: casestudies-2c059bb2-4692-4fc0-8701-f8cd51faccd0
         file: 
         path: 
