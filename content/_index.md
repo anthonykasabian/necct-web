@@ -54,7 +54,7 @@ works_page_link = []
 [[page_sections.works_selection]]
 work_item = "casestudies/case-01.md"
 [[page_sections.works_selection]]
-work_item = []
+work_item = "casestudies/case-02.md"
 [[page_sections.works_selection]]
 work_item = "casestudies/case-03.md"
 [[page_sections]]
