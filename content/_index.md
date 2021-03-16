@@ -11,12 +11,15 @@ tagline = "SMOOTH INTERFACE INTERACTION"
 template = "section-two-column-text"
 underlay_title = "Digital"
 [[page_sections]]
-list_items = []
-media_background = ""
-section_title = ""
-tagline = ""
+media_background = "/uploads/video.mp4"
+section_title = "Creation of sustainable digital products"
+tagline = "SMOOTH INTERFACE INTERACTION"
 template = "section-3-column-list-video"
 underlay_title = ""
+[[page_sections.list_items]]
+list_item_list = ""
+list_item_text = "Creativity for us something personal."
+list_item_title = "STRATEGY"
 [[page_sections]]
 section_title = ""
 tagline = ""
