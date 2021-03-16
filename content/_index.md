@@ -52,7 +52,9 @@ template = "section-works"
 underlay_title = "WORKS"
 works_page_link = []
 [[page_sections.works_selection]]
-work_item = "casestudies/case-01.md"
+work_item = []
+[[page_sections.works_selection]]
+work_item = "casestudies/case-02.md"
 [[page_sections]]
 page_link = []
 section_text = "DO YOU HAVE A PROJECT OPPORTUNITY, OR ARE YOU JUST A LOOKING TO GET CREATIVE SOLUTIONS?"
