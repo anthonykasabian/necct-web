@@ -17,7 +17,7 @@ tagline = "SMOOTH INTERFACE INTERACTION"
 template = "section-3-column-list-video"
 underlay_title = ""
 [[page_sections.list_items]]
-list_item_list = ""
+list_item_list = "* UX strategy\n* Concept development\n* Content strategy\n* Online marketting\n* User testing & research"
 list_item_text = "Creativity for us something personal."
 list_item_title = "STRATEGY"
 [[page_sections]]
