@@ -17,6 +17,10 @@ tagline = "SMOOTH INTERFACE INTERACTION"
 template = "section-3-column-list-video"
 underlay_title = ""
 [[page_sections.list_items]]
+list_item_list = "* CMS Development\n* Back-end Prototype\n* Coding strategy\n* Beta testing\n* Page builder"
+list_item_text = "Creativity for us something personal."
+list_item_title = "BACK-END DEV"
+[[page_sections.list_items]]
 list_item_list = "* User Interface\n* Prototype development\n* Content strategy\n* Online research\n* Layout wireframe"
 list_item_text = "Creativity for us something personal."
 list_item_title = " UI-UX LAYOUT"
