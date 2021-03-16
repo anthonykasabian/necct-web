@@ -1,4 +1,51 @@
 ---
 label: Section 3 Column List Video
 hide_body: true
-fields: []
+fields:
+- name: tagline
+  type: text
+  config:
+    required: false
+  label: Tagline
+- name: section_title
+  type: text
+  config:
+    required: false
+  label: Section Title
+- name: underlay_title
+  type: text
+  config:
+    required: false
+  label: Underlay Title
+- name: media_background
+  type: file
+  config:
+    maxSize: 64
+  label: Media Background
+- name: list_items
+  type: field_group_list
+  fields:
+  - name: list_item_title
+    type: text
+    config:
+      required: false
+    label: List Item Title
+  - name: list_item_text
+    type: text
+    config:
+      required: false
+    label: List Item Text
+  - name: list_item_list
+    type: textarea
+    default: ''
+    config:
+      required: false
+      wysiwyg: false
+      schema:
+        format: markdown
+    label: List Item List
+  config:
+    min: 
+    max: 
+    labelField: 
+  label: List Items
