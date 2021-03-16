@@ -22,7 +22,7 @@ fields:
   fields:
   - name: work_item
     type: select
-    default: []
+    default: casestudies/case-01.md
     config:
       required: false
       options: []
