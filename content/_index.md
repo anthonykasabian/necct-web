@@ -6,6 +6,13 @@ sectionreference = ""
 [[page_sections]]
 template = "section-slider"
 [[page_sections.slider_items]]
+call_to_action_label = "KNOW WHY"
+is_video = false
+slider_media = "/uploads/slide-01.jpg"
+tagline = "MORE IMPRESSIVE STUFF"
+title_colored = "YOU'LL NEED"
+title_outline = "ONLY US"
+[[page_sections.slider_items]]
 call_to_action_label = "LEARN MORE"
 is_video = false
 slider_media = "/uploads/slide-01.jpg"
