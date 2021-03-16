@@ -17,6 +17,15 @@ fields:
   config:
     required: false
   label: Underlay Title
+- name: section_text
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: true
+    schema:
+      format: markdown
+  label: Section Text
 - name: call_to_action
   type: select
   default: []
