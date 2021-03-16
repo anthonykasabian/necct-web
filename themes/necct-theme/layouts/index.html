@@ -1,14 +1,30 @@
 {{define "header"}}
-<header class="header">
-    {{ partial "aside_home" }}
+    {{ range .Params.page_sections}}
+        {{if eq "section-slider" .template}}
 
-    {{- partial "swiper_home.html" . -}}
-</header>
-<!-- end header -->
+        <header class="header">
+            {{ partial "aside_home" }}
+
+            {{ partial "blocks/section_slider" . }}
+        </header>
+        <!-- end header -->
+
+        {{end}}
+    {{end}}
 {{end}}
 
 {{ define "main" }}
 
-{{.Content}}
+{{ range .Params.page_sections}}
+    {{if eq "section-two-column-text" .template}}
+        {{ partial "blocks/section_two_column_text" . }}
+    {{end}}
+    {{if eq "section-3-column-list-video" .template}}
+        {{ partial "blocks/section_three_column_list_video" . }}
+    {{end}}
+    {{if eq "section-works" .template}}
+        {{ partial "blocks/section_works" . }}
+    {{end}}
+{{end}}
 
 {{ end }}

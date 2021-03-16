@@ -1,0 +1,36 @@
+<section class="services-content-block">
+    <div class="video-bg">
+        <video src="{{.media_background}}" muted loop autoplay></video>
+    </div>
+    <!-- end video-bg -->
+    <div class="container">
+        <div class="row">
+            <div class="col-12 wow fadeIn">
+                <h6>{{.tagline}}</h6>
+                <h2>{{.section_title | default "Creation of friendly web interface layout"}} </h2>
+            </div>
+            <!-- end col-12 -->
+            {{ range .list_items }}
+            <div class="col-md-4 wow fadeIn" data-wow-delay="{{.animationDelay}}">
+                <div class="content-box">
+                    <div class="left"><small>{{.counter}}</small><span></span></div>
+                    <!-- end left -->
+                    <div class="right">
+                        <h4>{{.list_item_title}}</h4>
+                        <p>{{.list_item_text}}</p>
+                        <ul>
+                            {{.list_item_list | markdownify}}
+                        </ul>
+                    </div>
+                    <!-- end right -->
+                </div>
+                <!-- end content-box -->
+            </div>
+            <!-- end col-4 -->
+            {{end}}
+        </div>
+        <!-- end row -->
+    </div>
+    <!-- end container -->
+</section>
+<!-- end services-content-block -->

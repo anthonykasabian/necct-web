@@ -1,17 +1,17 @@
 <div class="swiper-slider">
     <div class="swiper-wrapper">
-        {{ $homeslides := where $.Site.RegularPages "Section" "slides" }}
-        {{ range $homeslides }}
+        {{ range .slider_items}}
+
         <div class="swiper-slide" data-tilt data-tilt-max="5" data-tilt-speed="500" data-tilt-perspective="1500">
-            <div class="slide-inner bg-image" data-background="{{ .Params.image }}">
+            <div class="slide-inner bg-image" data-background="{{ .slider_media }}">
                 <div class="container">
-                    <div class="tagline"><span>{{ .Params.number }}</span>
-                        <h6>{{ .Params.tagline }}</h6>
+                    <div class="tagline"><span>{{ .number }}</span>
+                        <h6>{{ .tagline }}</h6>
                     </div>
                     <!-- end tagline -->
-                    <h1>{{ .Params.titleColored }}<br>
-                        <span>{{ .Params.titleOutline }}</span></h1>
-                    <div class="slide-btn"><a href="{{ .Params.linkTo}}">
+                    <h1>{{ .title_colored }}<br>
+                        <span>{{ .title_outline }}</span></h1>
+                    <div class="slide-btn"><a href="#">
                         <div class="lines"><span></span> <span></span></div>
                         <!-- end lines -->
                         <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
@@ -20,7 +20,7 @@
                 <circle class="video-play-circle" fill="none" stroke="#fff" stroke-width="2" stroke-miterlimit="1"
                         cx="52" cy="52" r="50"/>
               </svg>
-                        <b>LEARN MORE</b> </a></div>
+                        <b>{{.call_to_action_label}}</b> </a></div>
                     <!-- end slide-btn -->
                 </div>
                 <!-- end container -->
