@@ -1,9 +1,7 @@
 +++
-inputFile = "pagesections/sectionhomelight.md"
+inputFile = ""
 inputFile2 = "pagesections/sectionvideolist.md"
-inputfile2 = "pagesections/sectionvideolist.md"
+inputfile2 = ""
 sectionreference = ""
 
 +++
-{{< sectionarea >}}
-{{< sectionvideolist >}}
