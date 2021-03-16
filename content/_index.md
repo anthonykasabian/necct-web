@@ -38,11 +38,11 @@ works_page_link = []
 work_item = []
 [[page_sections]]
 page_link = []
-section_text = ""
-section_title = ""
-tagline = ""
+section_text = "DO YOU HAVE A PROJECT OPPORTUNITY, OR ARE YOU JUST A LOOKING TO GET CREATIVE SOLUTIONS?"
+section_title = "So that's us. There's no other way to put it."
+tagline = "START WORKING WITH US"
 template = "section-work-with-us"
-underlay_title = ""
+underlay_title = "COLLAB"
 [[page_sections]]
 call_to_action = []
 client_list = []
