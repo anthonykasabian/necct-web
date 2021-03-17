@@ -20,16 +20,25 @@ fields:
 - name: team_members
   type: field_group_list
   fields:
-  - name: member_role
-    type: text
-    config:
-      required: false
-    label: Member Role
   - name: member_name
     type: text
     config:
       required: false
     label: Member Name
+  - name: member_role
+    type: text
+    config:
+      required: false
+    label: Member Role
+  - name: member_text
+    type: textarea
+    default: ''
+    config:
+      required: false
+      wysiwyg: true
+      schema:
+        format: markdown
+    label: Member Text
   - name: member_image
     type: file
     config:
@@ -38,5 +47,5 @@ fields:
   config:
     min: 
     max: 
-    labelField: 
+    labelField: member_name
   label: Team Members
