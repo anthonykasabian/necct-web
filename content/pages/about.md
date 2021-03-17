@@ -13,6 +13,10 @@ tagline = "MEET THE TEAM"
 template = "section-team"
 underlay_title = "AND HAPPY TO WORK WITH YOU"
 [[page_sections.team_members]]
+member_image = "/uploads/toni_haupt.jpg"
+member_name = "Toni Haupt"
+member_role = "Director Marketing & Content"
+[[page_sections.team_members]]
 member_image = "/uploads/leonie-guenther.jpg"
 member_name = "Leonie Günther"
 member_role = "Head of Business"
