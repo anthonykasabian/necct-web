@@ -65,9 +65,9 @@ list_item_list = "1. Identify / collect problems\n2. Discuss problem in the team
 list_item_text = "Describing Text"
 list_item_title = "Topic Selection"
 [[page_sections.list_items]]
-list_item_list = ""
-list_item_text = ""
-list_item_title = ""
+list_item_list = "1. Validate solution based on canvas\n2. Decide on next steps: Go vs. Stop"
+list_item_text = "Describing Text"
+list_item_title = "Solution Ideation"
 [[page_sections.list_items]]
 list_item_list = ""
 list_item_text = ""
