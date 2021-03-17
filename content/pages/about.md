@@ -16,14 +16,17 @@ underlay_title = "AND HAPPY TO WORK WITH YOU"
 member_image = "/uploads/toni_haupt.jpg"
 member_name = "Toni Haupt"
 member_role = "Director Marketing & Content"
+member_text = "**What you get:**\n\n* Creativity (ux/ui)\n* Design expertise\n* Marketing skills\n* Coding\n* Photography & videography\n\n**I am also:**\n\n* Empathic & self-reflecting\n* Aggressive in a positie way\n* Great in motivating others"
 [[page_sections.team_members]]
 member_image = "/uploads/leonie-guenther.jpg"
 member_name = "Leonie Günther"
 member_role = "Head of Business"
+member_text = ""
 [[page_sections.team_members]]
 member_image = "/uploads/lorenz-fendes.jpg"
 member_name = "Lorenz Fendes"
 member_role = "Strategic & Creative Director"
+member_text = ""
 [[page_sections]]
 process_steps = []
 section_title = ""
