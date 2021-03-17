@@ -65,11 +65,11 @@ list_item_list = "* Identify / collect problems\n* Discuss problem in the team\n
 list_item_text = "Describing Text"
 list_item_title = "Topic Selection"
 [[page_sections.list_items]]
-list_item_list = "1. Validate solution based on canvas\n2. Decide on next steps: Go vs. Stop"
+list_item_list = "* Validate solution based on canvas\n* Decide on next steps: Go vs. Stop"
 list_item_text = "Describing Text"
 list_item_title = "Solution Ideation"
 [[page_sections.list_items]]
-list_item_list = "1. Develop first prototype"
+list_item_list = "* Develop first prototype"
 list_item_text = "Minimal viable prototype"
 list_item_title = "Solution MVP"
 [[page_sections]]
