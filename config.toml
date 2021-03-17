@@ -17,7 +17,7 @@ weight = 1
 [[menu.main]]
 identifier = "hello"
 name = "Hello"
-url = "/hello/"
+url = "/direction/"
 weight = 5
 [[menu.main]]
 identifier = "news"
