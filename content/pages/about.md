@@ -15,9 +15,9 @@ template = "section-two-column-text"
 underlay_title = "underlay"
 [[page_sections]]
 section_title = "WE ARE NECCT"
-tagline = "MEET THE TEAM"
+tagline = "OUR AMAZING FULLY SKILLED TEAM MEMBERS"
 template = "section-team"
-underlay_title = "AND HAPPY TO WORK WITH YOU"
+underlay_title = "CREW"
 [[page_sections.team_members]]
 member_image = "/uploads/toni_haupt.jpg"
 member_name = "Toni Haupt"

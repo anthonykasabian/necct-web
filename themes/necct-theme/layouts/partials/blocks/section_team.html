@@ -1,0 +1,28 @@
+<section class="team">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-12 wow fadeIn">
+                <h6>{{.tagline}}</h6>
+                <h2 data-text="{{.underlay_title}}">{{.section_title}}</h2>
+            </div>
+            <!-- end col-12 -->
+            {{range .team_members}}
+            <div class="col-lg-4 col-md-3 wow fadeIn">
+                <figure>
+                    <img src="{{.member_image}}" alt="Image">
+                    <figcaption>
+                        <small>{{.member_role}}</small>
+                        <h4>{{.member_name}}</h4>
+                        <p>
+                            {{.member_text | markdownify}}
+                        </p>
+                    </figcaption>
+                </figure>
+            </div>
+            <!-- end col-2 -->
+            {{end}}
+        </div>
+        <!-- end row -->
+    </div>
+    <!-- end container -->
+</section>
