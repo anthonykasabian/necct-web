@@ -39,6 +39,10 @@ tagline = "THIS IS HOW WE PUSH IT FURTHER"
 template = "section-process"
 underlay_title = "IDEATION"
 [[page_sections.process_steps]]
+step_icon = "/uploads/icon04.jpg"
+step_text = ""
+step_title = "GO TO MARKET"
+[[page_sections.process_steps]]
 step_icon = "/uploads/icon02.jpg"
 step_text = ""
 step_title = "Coaching & Support"
