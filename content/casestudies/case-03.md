@@ -1,4 +1,5 @@
 +++
-tagline = "AMAZING USER INTERFACE & SMOOTH INTERACTION"
-title = "<span>Karamel</span>Coffee"
+tagline = "ENTERPRISE OBSERVABILITY & APM FOR CLOUD"
+title = "<span>INSTANA</span>"
+
 +++

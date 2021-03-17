@@ -1,4 +1,5 @@
 +++
-tagline = "AMAZING USER INTERFACE & SMOOTH INTERACTION"
-title = "<span>Karamel</span>Coffee"
+tagline = "IDENTIFY THE WEAK SPOTS THAT MATTER"
+title = "<span>Steadybit</span>"
+
 +++
