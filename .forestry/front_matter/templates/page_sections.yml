@@ -20,3 +20,4 @@ fields:
     max: 
 pages:
 - content/_index.md
+- content/pages/about.md
