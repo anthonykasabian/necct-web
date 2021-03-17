@@ -1,0 +1,28 @@
+{{define "header"}}
+<header class="page-header">
+    {{partial "page_header" .}}
+    {{partial "aside_home"}}
+</header>
+{{end}}
+
+{{ define "main" }}
+
+{{ range .Params.page_sections }}
+{{if eq "section-two-column-text" .template}}
+{{ partial "blocks/section_two_column_text" . }}
+{{end}}
+{{if eq "section-3-column-list-video" .template}}
+{{ partial "blocks/section_three_column_list_video" . }}
+{{end}}
+{{if eq "section-highlight-countdown" .template}}
+{{ partial "blocks/section_highlight_countdown" .}}
+{{end}}
+{{if eq "section-work-with-us" .template}}
+{{ partial "blocks/section_work_with_us" . }}
+{{end}}
+{{if eq "section-clients" .template}}
+{{ partial "blocks/section_clients" . }}
+{{end}}
+{{end}}
+
+{{ end }}
