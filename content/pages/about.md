@@ -34,11 +34,14 @@ member_name = "Lorenz Fendes"
 member_role = "Strategic & Creative Director"
 member_text = "**What you get:**\n\n* News and trends\n* Creative mind, who loves to inspire\n* Marekting expertise\n* Clean and nice presentation\n* Presentation skills\n\n**I am also:**\n\n* Not afraid\n* Great network\n* Able to do politics"
 [[page_sections]]
-process_steps = []
-section_title = ""
-tagline = ""
+section_title = "INNOVATION LEADS THROUGH "
+tagline = "THIS IS HOW WE PUSH IT FURTHER"
 template = "section-process"
-underlay_title = ""
+underlay_title = "IDEATION"
+[[page_sections.process_steps]]
+step_icon = "/uploads/icon01.jpg"
+step_text = "Process Text need to be updated"
+step_title = "Awareness & Visibility"
 [[page_sections]]
 list_items = []
 media_background = ""
