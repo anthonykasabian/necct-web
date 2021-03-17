@@ -55,12 +55,23 @@ step_icon = "/uploads/icon03.jpg"
 step_text = ""
 step_title = "LEARNING & SHARING"
 [[page_sections]]
-list_items = []
-media_background = ""
-section_title = ""
-tagline = ""
+media_background = "/uploads/video.mp4"
+section_title = "THE NECCT THING"
+tagline = "IDEATION WORKFLOW"
 template = "section-3-column-list-video"
-underlay_title = ""
+underlay_title = "WORKFLOW"
+[[page_sections.list_items]]
+list_item_list = "1. Identify / collect problems\n2. Discuss problem in the team\n3. Decide on top 3 challenges\n4. Brainstorm possible solutions\n5. Decide on solution"
+list_item_text = "Describing Text"
+list_item_title = "Topic Selection"
+[[page_sections.list_items]]
+list_item_list = ""
+list_item_text = ""
+list_item_title = ""
+[[page_sections.list_items]]
+list_item_list = ""
+list_item_text = ""
+list_item_title = ""
 [[page_sections]]
 countdown_elements = []
 section_title = ""
