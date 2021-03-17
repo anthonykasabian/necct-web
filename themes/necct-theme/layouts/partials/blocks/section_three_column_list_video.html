@@ -10,16 +10,16 @@
                 <h2>{{.section_title | default "Creation of friendly web interface layout"}} </h2>
             </div>
             <!-- end col-12 -->
-            {{ range .list_items }}
+            {{ range $count, $item:=.list_items }}
             <div class="col-md-4 wow fadeIn" data-wow-delay="{{.animationDelay}}">
                 <div class="content-box">
-                    <div class="left"><small>{{.counter}}</small><span></span></div>
+                    <div class="left"><small>{{add $count 1}}</small><span></span></div>
                     <!-- end left -->
                     <div class="right">
-                        <h4>{{.list_item_title}}</h4>
-                        <p>{{.list_item_text}}</p>
+                        <h4>{{$item.list_item_title}}</h4>
+                        <p>{{$item.list_item_text}}</p>
                         <ul>
-                            {{.list_item_list | markdownify}}
+                            {{$item.list_item_list | markdownify}}
                         </ul>
                     </div>
                     <!-- end right -->

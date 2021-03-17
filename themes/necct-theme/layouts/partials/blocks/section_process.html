@@ -1,0 +1,25 @@
+<section class="process">
+    <div class="container">
+        <div class="row no-gutters">
+            <div class="col-12 wow fadeIn">
+                <h6>{{.tagline}}</h6>
+                <h2 data-text="{{.underlay_title}}">{{.section_title}}</h2>
+            </div>
+            <!-- end col-12 -->
+            {{range $count, $step:=.process_steps}}
+            <div class="col-md-3 wow fadeIn" data-wow-delay="0s"> <span>{{add $count 1}}</span>
+                <figure> <img src="{{$step.step_icon}}" alt="Image">
+                    <figcaption>
+                        <h5>{{.step_title}}</h5>
+                        <p>{{.step_text}}</p>
+                    </figcaption>
+                </figure>
+            </div>
+            <!-- end col-3 -->
+            {{end}}
+        </div>
+        <!-- end row -->
+    </div>
+    <!-- end container -->
+</section>
+<!-- end process -->
