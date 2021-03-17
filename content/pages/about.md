@@ -1,18 +1,12 @@
 +++
-url="/about/"
-layout="about"
-type="pages"
-page_media="/videos/video2.mp4"
-page_title="NECCT"
-page_subtitle="TO CREATE A POWERFUL PROJECT ONCE, A BIT OF LUCK IS ENOUGH"
 [[page_sections]]
 call_to_action = []
-section_left_text = "left"
-section_text = "text"
-section_title = "title"
-tagline = "tagline"
+section_left_text = ""
+section_text = ""
+section_title = ""
+tagline = ""
 template = "section-two-column-text"
-underlay_title = "underlay"
+underlay_title = ""
 [[page_sections]]
 section_title = "WE ARE NECCT"
 tagline = "OUR AMAZING FULLY SKILLED TEAM MEMBERS"
@@ -32,7 +26,7 @@ member_text = "**What you get:**\n\n* Analytical & process thinking\n* Curious &
 member_image = "/uploads/lorenz-fendes.jpg"
 member_name = "Lorenz Fendes"
 member_role = "Strategic & Creative Director"
-member_text = ""
+member_text = "**What you get:**\n\n* News and trends\n* Creative mind, who loves to inspire\n* Marekting expertise\n* Clean and nice presentation\n* Presentation skills\n\n**I am also:**\n\n* Not afraid\n* Great network\n* Able to do politics"
 [[page_sections]]
 process_steps = []
 section_title = ""
