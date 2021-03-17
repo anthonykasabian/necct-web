@@ -1,4 +1,10 @@
 +++
+type="pages"
+url="/about"
+layout="about"
+page_media="/videos/video2.mp4"
+page_title="GET TO KNOW"
+page_subtitle="AND MEET THE INNOVATION SQUAD OF THE FUTURE"
 [[page_sections]]
 call_to_action = []
 section_left_text = ""
