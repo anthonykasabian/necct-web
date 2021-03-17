@@ -39,21 +39,21 @@ tagline = "THIS IS HOW WE PUSH IT FURTHER"
 template = "section-process"
 underlay_title = "IDEATION"
 [[page_sections.process_steps]]
-step_icon = "/uploads/icon03.jpg"
-step_text = ""
-step_title = "LEARNING & SHARING"
-[[page_sections.process_steps]]
-step_icon = "/uploads/icon04.jpg"
-step_text = ""
-step_title = "GO TO MARKET"
+step_icon = "/uploads/icon01.jpg"
+step_text = "Process Text need to be updated"
+step_title = "Awareness & Visibility"
 [[page_sections.process_steps]]
 step_icon = "/uploads/icon02.jpg"
 step_text = ""
 step_title = "Coaching & Support"
 [[page_sections.process_steps]]
-step_icon = "/uploads/icon01.jpg"
-step_text = "Process Text need to be updated"
-step_title = "Awareness & Visibility"
+step_icon = "/uploads/icon04.jpg"
+step_text = ""
+step_title = "GO TO MARKET"
+[[page_sections.process_steps]]
+step_icon = "/uploads/icon03.jpg"
+step_text = ""
+step_title = "LEARNING & SHARING"
 [[page_sections]]
 list_items = []
 media_background = ""
