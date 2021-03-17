@@ -1,0 +1,28 @@
+<section class="clients">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-5 wow fadeIn">
+                <h6>{{.tagline}}</h6>
+                <h2>{{.section_title}}</h2>
+                <h4>{{.section_text}}</h4>
+                <div class="custom-link wow fadeIn"> <a href="#">
+                    <div class="lines"> <span></span> <span></span> </div>
+                    <!-- end lines -->
+                    <b>BE OUR CLIENT</b></a> </div>
+                <!-- end custom-link -->
+            </div>
+            <!-- end col-4 -->
+            <div class="col-lg-7 wow fadeIn" data-wow-delay="0.10s">
+                <ul>
+                    {{ range .client_list}}
+                        <li><img src="{{.client_image}}" alt="Image"><small>{{.client_name}}</small></li>
+                    {{end}}
+                </ul>
+            </div>
+            <!-- end col-7 -->
+        </div>
+        <!-- end row -->
+    </div>
+    <!-- end container -->
+</section>
+<!-- end clients -->

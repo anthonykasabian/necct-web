@@ -7,28 +7,26 @@
             </div>
             <!-- end col-12 -->
             <div class="col-12">
-
-                {{range .works_selection}}
-
-                <div class="project-box wow fadeIn" data-bg="#faf8ed">
-                    <figure> <a href="/images/featured01.jpg" data-fancybox><img src="/images/featured01.jpg" alt="Image"></a></figure>
-                    <div class="content-box">
-                        <div class="inner"> <small>{{.Params.tagline}}</small>
-                            <h3>{{.Params.title | safeHTML}}</h3>
-                            <div class="custom-link"> <a href="{{ .RelPermalink }}">
-                                <div class="lines"> <span></span> <span></span> </div>
-                                <!-- end lines -->
-                                <b>LEARN MORE</b></a> </div>
-                            <!-- end custom-link -->
+                {{range .works.works_selection}}
+                    {{with site.GetPage .work_item}}
+                    <div class="project-box wow fadeIn" data-bg="#faf8ed">
+                        <figure> <a href="/images/featured01.jpg" data-fancybox><img src="/images/featured01.jpg" alt="Image"></a></figure>
+                        <div class="content-box">
+                            <div class="inner"> <small>{{.Params.tagline}}</small>
+                                <h3>{{.Params.title | safeHTML}}</h3>
+                                <div class="custom-link"> <a href="{{ .RelPermalink }}">
+                                    <div class="lines"> <span></span> <span></span> </div>
+                                    <!-- end lines -->
+                                    <b>LEARN MORE</b></a> </div>
+                                <!-- end custom-link -->
+                            </div>
+                            <!-- end inner -->
                         </div>
-                        <!-- end inner -->
+                        <!-- end content-box -->
                     </div>
-                    <!-- end content-box -->
-                </div>
-                <!-- end project-box -->
+                    <!-- end project-box -->
+                    {{end}}
                 {{end}}
-
-
             </div>
             <!-- end col-12 -->
         </div>
