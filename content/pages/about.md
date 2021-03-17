@@ -69,9 +69,9 @@ list_item_list = "1. Validate solution based on canvas\n2. Decide on next steps:
 list_item_text = "Describing Text"
 list_item_title = "Solution Ideation"
 [[page_sections.list_items]]
-list_item_list = ""
-list_item_text = ""
-list_item_title = ""
+list_item_list = "1. Develop first prototype"
+list_item_text = "Minimal viable prototype"
+list_item_title = "Solution MVP"
 [[page_sections]]
 countdown_elements = []
 section_title = ""
