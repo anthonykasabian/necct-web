@@ -21,7 +21,7 @@ member_text = "**What you get:**\n\n* Creativity (ux/ui)\n* Design expertise\n* 
 member_image = "/uploads/leonie-guenther.jpg"
 member_name = "Leonie Günther"
 member_role = "Head of Business"
-member_text = ""
+member_text = "**What you get:**\n\n* Analytical & process thinking\n* Curious & solution oriented\n* Experience in growing teams/organization\n* Execution & project management\n* Workshop facilitation & moderation\n\n**I am also:**\n\n* Determined & passionate\n* Optimistic & positive mindset\n* Great communication skills"
 [[page_sections.team_members]]
 member_image = "/uploads/lorenz-fendes.jpg"
 member_name = "Lorenz Fendes"
