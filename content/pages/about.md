@@ -61,7 +61,7 @@ tagline = "IDEATION WORKFLOW"
 template = "section-3-column-list-video"
 underlay_title = "WORKFLOW"
 [[page_sections.list_items]]
-list_item_list = "1. Identify / collect problems\n2. Discuss problem in the team\n3. Decide on top 3 challenges\n4. Brainstorm possible solutions\n5. Decide on solution"
+list_item_list = "* Identify / collect problems\n* Discuss problem in the team\n* Decide on top 3 challenges\n* Brainstorm possible solutions\n* Decide on solution"
 list_item_text = "Describing Text"
 list_item_title = "Topic Selection"
 [[page_sections.list_items]]
