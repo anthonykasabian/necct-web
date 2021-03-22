@@ -5,37 +5,37 @@ title = "NECCT"
 [[menu.main]]
 identifier = "Category 2"
 name = "Category 2"
-parent = "News"
+parent = "WHAT IF"
 url = "/news/category2/"
 weight = 2
 [[menu.main]]
 identifier = "Category 1"
 name = "Category 1"
-parent = "News"
+parent = "WHAT IF"
 url = "/news/category1/"
 weight = 1
 [[menu.main]]
 identifier = "hello"
-name = "Hello"
+name = "CONTACT"
 url = "/direction/"
 weight = 5
 [[menu.main]]
 identifier = "news"
-name = "News"
+name = "WHAT IF"
 url = "/news/"
 weight = 4
 [[menu.main]]
 identifier = "necct"
-name = "Necct"
+name = "ABOUT"
 url = "/about/"
-weight = 3
-[[menu.main]]
-identifier = "casestudies"
-name = "Casestudies"
-url = "/casestudies/"
 weight = 2
 [[menu.main]]
+identifier = "casestudies"
+name = "CASE STUDIES"
+url = "/casestudies/"
+weight = 3
+[[menu.main]]
 identifier = "start"
-name = "Start"
+name = "HOME"
 url = "/"
 weight = 1
