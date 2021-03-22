@@ -9,9 +9,9 @@ template = "section-slider"
 call_to_action_label = "LEARN HOW"
 is_video = false
 slider_media = "/uploads/slide-01.jpg"
-tagline = "Shaping the digital"
-title_colored = "future through"
-title_outline = "great products"
+tagline = "Innovation & Co-Creation by codecentric"
+title_colored = "WE ARE"
+title_outline = "NECCT"
 [[page_sections]]
 call_to_action = []
 section_left_text = ""
