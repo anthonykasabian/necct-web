@@ -17,7 +17,7 @@
         // TYPEWRITER
         $("#typewriter").typewriter({
             prefix: "",
-            text: ["Please wait", "Still loading", "Almost done"],
+            text: ["Innovation & Co-Creation ", "by codecentric", "Almost done"],
             typeDelay: 100,
             waitingTime: 1500,
             blinkSpeed: 800
@@ -29,9 +29,7 @@
             speed: 600,
             loop: true,
             direction: 'horizontal',
-            autoplay: {
-                delay: 5000
-            },
+            autoplay: false,
             pagination: {
                 el: '.swiper-pagination',
                 clickable: true,
@@ -50,16 +48,16 @@
         }, true);
         audio.src = source;
         audio.autoplay = false;
-        audio.loop = true;
+        audio.loop = false;
         audio.volume = 0.2;
 
 
         $('.equalizer').click();
-        var playing = true;
+        var playing = false;
         $('.equalizer').on('click', function (e) {
             if (playing == false) {
-                audio.play();
-                playing = true;
+                audio.pause();
+                playing = false;
 
             } else {
                 audio.pause();
