@@ -12,13 +12,6 @@ slider_media = "/uploads/slide-01.jpg"
 tagline = "Shaping the digital"
 title_colored = "future through"
 title_outline = "great products"
-[[page_sections.slider_items]]
-call_to_action_label = "LEARN MORE"
-is_video = false
-slider_media = "/uploads/slide-01.jpg"
-tagline = "Give us stunning slides"
-title_colored = "We are"
-title_outline = "NECCT"
 [[page_sections]]
 call_to_action = []
 section_left_text = ""
