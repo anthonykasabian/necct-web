@@ -1,13 +1,15 @@
 ---
-title: "Decluttering a Landing Page for Better"
-date: 2020-01-26T23:11:13Z
-draft: true
-tags: ["foo", "bar"]
+title: Decluttering a Landing Page for Better
+date: 2020-01-26T23:11:13.000+00:00
+tags:
+- foo
+- bar
 thumbnail: "/images/news01.jpg"
-author: "Toni East"
+author: Toni East
 page_media: "/videos/video2.mp4"
-page_title: "NEED TO READ"
-page_subtitle: "Because it's interesting"
+page_title: NEED TO READ
+page_subtitle: Because it's interesting
+
 ---
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor 
 incididunt ut labore et dolore magna aliqua. Pellentesque eu tincidunt tortor 
