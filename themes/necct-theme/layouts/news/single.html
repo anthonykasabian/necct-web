@@ -17,7 +17,7 @@
                     </figure>
                     <!-- end news-image -->
                     <div class="post-content">
-                        <div class="inner"> <small class="post-date">{{.Date}}</small>
+                        <div class="inner"> <small class="post-date">{{dateFormat "02 January, 2006" .Date}}</small>
                             <h3 class="post-title"><a href="news-single.html">{{.Title}}</a></h3>
                             <div class="post-author"><img src="/images/author01.jpg" alt="Image"> <span>by <a href="#">{{.Params.author}}</a></span></div>
                             <ul class="social-share">
@@ -27,6 +27,9 @@
                                 <li class="linkedin"><a href="#"><i class="fa fa-linkedin"></i></a></li>
                                 <li class="youtube"><a href="#"><i class="fa fa-youtube-play"></i></a></li>
                             </ul>
+
+                            {{.Content}}
+                            <!--
                             <h6>Business is the activity of making one's living or making money by producing or buying and selling products (goods and services).<strong>Simply</strong> put, it is "any activity or enterprise entered into for profit. </h6>
                             <p>Design is our playground. While we create an awesome experience, we like having fun. No animals were harmed, no bridges were burned during our parties.</p>
                             <figure><img src="/images/featured01.jpg" alt="Image"></figure>
@@ -48,6 +51,7 @@
                                 <li>Interested discretion estimating on stimulated.</li>
                             </ul>
                             <p>Post no so what <strong>deal evil</strong> rent by real in. But her ready least set lived spite solid. September how men saw tolerably two behaviour arranging. She offices for highest and replied one venture pasture. Applauded no discovery in newspaper allowance am northward. Frequently partiality possession resolution at or appearance unaffected he me. Engaged its was evident pleased husband. Ye <u>goodness</u> felicity do disposal dwelling no. First am plate jokes to began of cause an scale. Subjects he prospect elegance followed no overcame possible it on. </p>
+                        -->
                         </div>
                         <!-- end inner -->
                     </div>
