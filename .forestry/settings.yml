@@ -24,11 +24,11 @@ sections:
   label: Data
   create: all
   match: "**/*"
-upload_dir: necct-io
-public_path: https://res.cloudinary.com/codecentric-ag/image/upload/v1617026479/necct-io
+upload_dir: uploads
+public_path: uploads
 front_matter_path: ''
-use_front_matter_path: false
-file_template: ":year:/:month:/:filename:"
+use_front_matter_path: 
+file_template: ":filename:"
 build:
   preview_env:
   - HUGO_ENV=staging
