@@ -26,11 +26,11 @@ fields:
     schema:
       format: markdown
   label: Description
-- name: header_media
+- name: page_header
   type: file
   config:
     maxSize: 64
-  label: Header Media
+  label: Page Header
 - name: slug
   type: text
   config:
@@ -41,5 +41,10 @@ fields:
   config:
     required: false
   label: Author
+- name: subtitle
+  type: text
+  config:
+    required: false
+  label: subtitle
 pages:
 - content/news/first-post.md
