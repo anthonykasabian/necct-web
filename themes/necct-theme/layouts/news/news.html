@@ -11,10 +11,14 @@
     <div class="container">
         <div class="row">
             <div class="col-12">
+
                 {{range .Pages}}
+                {{$path := .Resources.GetMatch (.Params.page_header)}}
                 <div class="post wow fadeIn">
+                    {{ printf "%#v" $path }}
                     <figure class="post-image">
-                        <img src="{{.Params.thumbnail}}" alt="Image">
+
+                        <img src="" alt="Image">
                     </figure>
                     <!-- end news-image -->
                     <div class="post-content">

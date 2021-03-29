@@ -9,7 +9,6 @@ author: Toni East
 description: You missed to enter a description for this piece of content. It's relevant
   for SEO and the teaser part for preview snippets.
 slug: welcome-next
-header_media: "/uploads/slide-01.jpg"
 page_header: "/uploads/slide-01.jpg"
 subtitle: A small introduction what we're doing
 
