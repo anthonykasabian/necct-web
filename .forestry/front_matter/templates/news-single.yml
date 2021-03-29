@@ -41,5 +41,10 @@ fields:
   config:
     required: false
   label: Author
+- name: subtitle
+  type: text
+  config:
+    required: false
+  label: subtitle
 pages:
 - content/news/first-post.md
