@@ -1,0 +1,11 @@
+<!--<script src="/js/00-jquery.min.js"></script>
+<script src="/js/01-bootstrap.min.js"></script>
+<script src="/js/02-swiper.min.js"></script>
+<script src="/js/03-tilt.jquery.js"></script>
+<script src="/js/04-wow.min.js"></script>
+
+<script src="/js/05-jquery.typewriter.js"></script>
+<script src="/js/06-fancybox.min.js"></script>
+<script src="/js/08-scripts.js"></script>-->
+{{ $built := resources.Match "/js/*.js" | resources.Concat "js/vendor.js" | minify}}
+<script src="{{ $built.RelPermalink }}" defer></script>

@@ -1,25 +1,16 @@
 <!DOCTYPE html>
 <html>
-{{ partial "head.html" . }}
+{{ partial "head" . }}
 <body>
-{{ partial "preloader.html" }}
-{{ partial "navigation.html" . }}
-{{ partial "navbar.html" }}
+{{ partial "preloader" }}
+{{ partial "navigation" . }}
+{{ partial "navbar" }}
 {{ block "header" .}} {{end}}
 
 {{ block "main" . }}{{ end }}
 
-{{- partial "footer.html" . -}}
+{{- partial "footer" . -}}
 <!-- JS FILES -->
-<script src="/js/jquery.min.js"></script>
-<script src="/js/bootstrap.min.js"></script>
-<script src="/js/swiper.min.js"></script>
-<script src="/js/tilt.jquery.js"></script>
-<script src="/js/wow.min.js"></script>
-
-<script src="/js/jquery.typewriter.js"></script>
-<script src="/js/fancybox.min.js"></script>
-<script src="/js/app.js"></script>
-<script src="/js/scripts.js"></script>
+{{partial "js_embeds"}}
 </body>
 </html>
