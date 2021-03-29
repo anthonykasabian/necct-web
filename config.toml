@@ -2,6 +2,7 @@ baseURL = "/"
 languageCode = "de-DE"
 theme = "necct-theme"
 title = "NECCT"
+cloudinary_url="https://res.cloudinary.com/codecentric-ag/image/upload"
 [[menu.main]]
 identifier = "Category 2"
 name = "Category 2"
