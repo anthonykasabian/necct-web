@@ -1,6 +1,5 @@
 ---
 title: Welcome to NECCT
-subtitle:
 date: 2020-01-26T23:11:13.000+00:00
 tags:
 - foo
@@ -9,7 +8,8 @@ author: Toni East
 description: You missed to enter a description for this piece of content. It's relevant
   for SEO and the teaser part for preview snippets.
 slug: welcome-next
-page_header: "/uploads/slide-01.jpg"
+header_media: "/uploads/slide-01.jpg"
+page_header: "/v1617026484/necct-io/2021/03/slide-01_rqprxr.jpg"
 subtitle: A small introduction what we're doing
 
 ---
