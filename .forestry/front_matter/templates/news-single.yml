@@ -41,3 +41,5 @@ fields:
   config:
     required: false
   label: Author
+pages:
+- content/news/first-post.md
