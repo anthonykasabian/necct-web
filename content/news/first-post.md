@@ -13,6 +13,8 @@ description: You missed to enter a description for this piece of content. It's r
   for SEO and the teaser part for preview snippets.
 slug: welcome-next
 header_media: "/uploads/slide-01.jpg"
+page_header: "/uploads/slide-01.jpg"
+subtitle: A small introduction what we're doing
 
 ---
 A lot has happened in the area of innovation at codecentic in the past year. Like many other areas, it was strongly influenced by the uncertainties as well as opportunities brought about by the Corona pandemic.
