@@ -24,8 +24,8 @@ sections:
   label: Data
   create: all
   match: "**/*"
-upload_dir: codecentric-ag/image/upload/v1617026485/necct-io
-public_path: codecentric-ag/image/upload/v1617026479/necct-io
+upload_dir: necct-io
+public_path: https://res.cloudinary.com/codecentric-ag/image/upload/v1617026492/necct-io
 front_matter_path: ''
 use_front_matter_path: 
 file_template: ":year:/:month:/:filename:"
