@@ -1,0 +1,43 @@
+---
+label: News Single
+hide_body: false
+fields:
+- name: title
+  type: text
+  config:
+    required: false
+  label: Title
+- name: date
+  type: datetime
+  label: Date
+  description: ''
+  config:
+    required: false
+    date_format: DD/MM/YYYY
+    time_format: 
+    display_utc: false
+- name: description
+  type: textarea
+  default: You missed to enter a description for this piece of content. It's relevant
+    for SEO and the teaser part for preview snippets.
+  config:
+    required: false
+    wysiwyg: true
+    schema:
+      format: markdown
+  label: Description
+- name: header_media
+  type: file
+  config:
+    maxSize: 64
+  label: Header Media
+- name: slug
+  type: text
+  config:
+    required: false
+  label: Slug
+- name: author
+  type: text
+  config:
+    required: false
+  label: Author
