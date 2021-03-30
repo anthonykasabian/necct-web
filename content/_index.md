@@ -12,7 +12,7 @@ template = "section-slider"
 [[page_sections.slider_items]]
 call_to_action_label = "LEARN HOW"
 is_video = false
-slider_media = "/uploads/slide-01.jpg"
+slider_media = "https://res.cloudinary.com/codecentric-ag/image/upload/v1617026492/necct-io/v1617026484/necct-io/2021/03/slide-01_rqprxr.jpg"
 tagline = "Innovation & Co-Creation by codecentric"
 title_colored = "WE ARE"
 title_outline = "NECCT"
