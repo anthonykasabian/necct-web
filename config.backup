@@ -9,7 +9,19 @@ default_thumbnail_nc = "/images/default_thumbnail_nc.jpg"
 news_thumb_crop="ar_16:10,w_926,c_fill"
 profile_thumb_crop="ar_1:1,w_500,c_fill,g_face"
 [permalinks]
-casestudies = "/:section/:slug"
+casestudies = "/:slug"
+[[menu.main]]
+identifier = "Category 2"
+name = "Category 2"
+parent = "news"
+url = "/news/category2/"
+weight = 2
+[[menu.main]]
+identifier = "Category 1"
+name = "Category 1"
+parent = "news"
+url = "/news/category1/"
+weight = 1
 [[menu.main]]
 identifier = "hello"
 name = "CONTACT"
