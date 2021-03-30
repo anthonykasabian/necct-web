@@ -7,15 +7,11 @@ fields:
   config:
     required: false
   label: Title
-- name: date
-  type: datetime
-  label: Date
-  description: ''
+- name: subtitle
+  type: text
   config:
     required: false
-    date_format: DD/MM/YYYY
-    time_format: 
-    display_utc: false
+  label: subtitle
 - name: description
   type: textarea
   default: You missed to enter a description for this piece of content. It's relevant
@@ -26,25 +22,29 @@ fields:
     schema:
       format: markdown
   label: Description
+- name: date
+  type: datetime
+  label: Date
+  description: ''
+  config:
+    required: false
+    date_format: DD/MM/YYYY
+    time_format: 
+    display_utc: false
 - name: page_media
   type: file
   config:
     maxSize: 64
   label: Page Media
-- name: slug
-  type: text
-  config:
-    required: false
-  label: Slug
 - name: author
   type: text
   config:
     required: false
   label: Author
-- name: subtitle
+- name: slug
   type: text
   config:
     required: false
-  label: subtitle
+  label: Slug
 pages:
 - content/news/first-post.md
