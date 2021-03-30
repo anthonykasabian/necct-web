@@ -69,11 +69,12 @@
                 <!-- end post -->
 
                 <div class="pagination fadeIn">
-                    {{ if .PrevInSection }}
-                    <a href="{{ .PrevInSection.Permalink }}">PREV POST</a>
+                    {{ with .PrevPage }}
+                    <a href="{{ .PrevPage.Permalink }}">PREV POST</a>
                     {{end}}
-                    {{if .NextInSection}}
-                    <a href="{{ .NextInSection.Permalink }}">NEXT POST</a>
+                    
+                    {{with .NextPage}}
+                    <a href="{{ .NextPage.Permalink }}">NEXT POST</a>
                     {{end}}
                 </div>
                 <!-- end pagination -->
