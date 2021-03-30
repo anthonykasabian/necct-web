@@ -64,4 +64,4 @@ fields:
     required: false
   label: Slug
   description: It's for nice SEO links
-  default: "{{ .Name }}"
+  default: ":filename"
