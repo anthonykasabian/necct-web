@@ -3,7 +3,7 @@
         {{ range .slider_items}}
 
         <div class="swiper-slide" data-tilt data-tilt-max="5" data-tilt-speed="500" data-tilt-perspective="1500">
-            <div class="slide-inner bg-image" data-background="{{ .slider_media }}">
+            <div class="slide-inner bg-image" data-background="{{site.Params.cloudinary_url}}/{{ .slider_media }}">
                 <div class="container">
                     <div class="tagline"><span>{{ .number }}</span>
                         <h6>{{ .tagline }}</h6>
