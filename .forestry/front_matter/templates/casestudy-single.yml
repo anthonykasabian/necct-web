@@ -1,4 +1,51 @@
 ---
 label: Casestudy Single
 hide_body: false
-fields: []
+fields:
+- name: title
+  type: text
+  config:
+    required: false
+  label: Title
+- name: subtitle
+  type: text
+  config:
+    required: false
+  label: Subtitle
+- name: tagline
+  type: text
+  config:
+    required: false
+  label: Tagline
+- name: case_short_description
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: true
+    schema:
+      format: markdown
+  label: Case Short Description
+- name: case_workarea
+  type: text
+  config:
+    required: false
+  label: Case Workarea
+- name: case_launchdate
+  type: datetime
+  label: Case Launchdate
+  description: ''
+  config:
+    required: false
+    date_format: DD/mmm/YYYY
+    time_format: 
+    display_utc: false
+- name: case_video
+  type: text
+  config:
+    required: false
+  label: Case Video
+- name: case_gallery
+  type: image_gallery
+  config: {}
+  label: Case Gallery
