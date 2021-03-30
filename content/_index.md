@@ -2,7 +2,11 @@
 inputFile = ""
 inputFile2 = "pagesections/sectionvideolist.md"
 inputfile2 = ""
+page_media = ""
+page_video = ""
 sectionreference = ""
+subtitle = ""
+title = ""
 [[page_sections]]
 template = "section-slider"
 [[page_sections.slider_items]]
