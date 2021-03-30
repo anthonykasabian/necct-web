@@ -5,15 +5,17 @@ admin_path: admin
 webhook_url: 
 sections:
 - type: directory
-  path: ''
+  path: content
   label: Pages
   create: all
-  match: "**/*"
+  match: "**"
 - type: directory
   path: content/casestudies
   label: Casestudies
   create: all
   match: "**/*"
+  templates:
+  - casestudy-single
 - type: directory
   path: content/news
   label: News
