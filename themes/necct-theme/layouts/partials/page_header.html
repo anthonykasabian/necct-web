@@ -3,7 +3,7 @@
 </div>
 <!-- end video-bg -->
 <div class="container">
-    <h1>{{.Title}}</h1>
+    <h1>{{.Title | safeHTML}}</h1>
     <p>{{.Params.subtitle}}</p>
 </div>
 <!-- end container -->
