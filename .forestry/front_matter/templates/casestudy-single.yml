@@ -37,7 +37,7 @@ fields:
   description: ''
   config:
     required: false
-    date_format: DD/mmm/YYYY
+    date_format: DD/MM/YYYY
     time_format: 
     display_utc: false
 - name: case_video
