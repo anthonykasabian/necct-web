@@ -32,7 +32,7 @@
                     <!-- end news-image -->
                     <div class="post-content">
                         <div class="inner">
-                            <small class="post-date">{{dateFormat "02 January, 2006" .Date }}</small>
+                            <small class="post-date">{{ .Date.Format "02 January, 2006" }}</small>
                             <h3 class="post-title"><a href="{{.RelPermalink}}">{{.Title}}</a></h3>
                             <div class="post-author"><img src="/images/author01.jpg" alt="Image"> <span>by <a href="#">{{.Params.author}}</a></span></div>
                             <p class="post-text">{{.Summary | truncate 200}}</p>
