@@ -1,6 +1,6 @@
 +++
 case_description = "Today's systems are constantly changing through the practices of continuous deployment. In order to respond quickly and flexibly to customer needs, today's release processes are optimized and systems are continuously changing.\n\nThis speed requires a maximum of reliability and trust. So far, current tools in the field of Chaos Engineering have only covered specific areas and require expert knowledge in handling these tools. steadybit strives to close this gap by making Chaos Engineering accessible to everyone."
-case_launchdate = 2020-12-23T23:00:00Z
+case_launchdate = 2020-12-24T23:00:00Z
 case_short_description = "steadybit is a Chaos Engineering platform that helps to proactively reduce downtime and provide visibility into systems to detect issues.\n\n[Visit steadybit](https://www.steadybit.com/ \"steadybit website\")"
 case_workarea = "Founding & Technology"
 subtitle = "IDENTIFY THE WEAK SPOTS THAT MATTER"
