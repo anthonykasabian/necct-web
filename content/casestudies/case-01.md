@@ -4,6 +4,7 @@ case_launchdate = 2020-12-24T23:00:00Z
 case_short_description = "steadybit is a Chaos Engineering platform that helps to proactively reduce downtime and provide visibility into systems to detect issues.\n\n[Visit steadybit](https://www.steadybit.com/ \"steadybit website\")"
 case_video = "https://www.youtube.com/embed/ln1eANzbiCw"
 case_workarea = "Founding & Technology"
+slug = "steadybit"
 subtitle = "IDENTIFY THE WEAK SPOTS THAT MATTER"
 tagline = "IDENTIFY THE WEAK SPOTS THAT MATTER"
 title = "<span>Steadybit</span>"
