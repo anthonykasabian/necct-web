@@ -28,7 +28,7 @@ sections:
   match: "**/*"
 upload_dir: necct-io
 public_path: 'https://res.cloudinary.com/codecentric-ag/image/upload/v1617026492/necct-io/:year:/:month:/:filename:'
-front_matter_path: ''
+front_matter_path: "/:filename"
 use_front_matter_path: true
 file_template: ":year:/:month:/:filename:"
 build:
