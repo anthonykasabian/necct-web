@@ -12,13 +12,22 @@
         <div class="row">
             <div class="col-12">
                 <div class="post single-post wow fadeIn">
+                    {{ $image := newScratch }}
+                    {{ $image.Set "image" .Site.Params.default_thumbnail_nc}}
+                    {{ $imagePath := $image.Get "image" }}
+
+                    {{with .Params.page_media}}
+                    {{ $imageCloudinaryPath := printf "%s/%s%s" site.Params.cloudinary_url site.Params.news_thumb_crop . }}
+                    {{ $image.Set "image" $imageCloudinaryPath }}
+                    {{ $imagePath = $image.Get "image" }}
+                    {{end}}
                     <figure class="post-image">
-                        <img src="/images/news-single.jpg" alt="Image">
+                        <img src="{{$imagePath}}" alt="Image">
                     </figure>
                     <!-- end news-image -->
                     <div class="post-content">
-                        <div class="inner"> <small class="post-date">{{dateFormat "02 January, 2006" .Date}}</small>
-                            <h3 class="post-title"><a href="news-single.html">{{.Title}}</a></h3>
+                        <div class="inner"> <small class="post-date">{{.Date.Format "January 2, 2006"}}</small>
+                            <h3 class="post-title">{{.Title}}</h3>
                             <div class="post-author"><img src="/images/author01.jpg" alt="Image"> <span>by <a href="#">{{.Params.author}}</a></span></div>
                             <ul class="social-share">
                                 <li class="facebook"><a href="#"><i class="fa fa-facebook"></i></a></li>
@@ -60,8 +69,12 @@
                 <!-- end post -->
 
                 <div class="pagination fadeIn">
-                    <a href="#">PREV POST</a>
-                    <a href="#">NEXT POST</a>
+                    {{ if .PrevInSection }}
+                    <a href="{{ .PrevInSection.Permalink }}">PREV POST</a>
+                    {{end}}
+                    {{if .NextInSection}}
+                    <a href="{{ .NextInSection.Permalink }}">NEXT POST</a>
+                    {{end}}
                 </div>
                 <!-- end pagination -->
             </div>

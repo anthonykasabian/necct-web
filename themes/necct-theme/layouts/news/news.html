@@ -13,12 +13,21 @@
             <div class="col-12">
 
                 {{range .Pages}}
-                {{$path := .Resources.GetMatch (.Params.page_media)}}
+
+                {{ $image := newScratch }}
+                {{ $image.Set "image" .Site.Params.default_thumbnail_nc}}
+                {{ $imagePath := $image.Get "image" }}
+
+                {{with .Params.page_media}}
+                    {{ $imageCloudinaryPath := printf "%s/%s%s" site.Params.cloudinary_url site.Params.news_thumb_crop . }}
+                    {{ $image.Set "image" $imageCloudinaryPath }}
+                    {{ $imagePath = $image.Get "image" }}
+                {{end}}
                 <div class="post wow fadeIn">
                     {{/* printf "%#v" $path */}}
                     <figure class="post-image">
 
-                        <img src="" alt="Image">
+                        <img src="{{$imagePath}}" alt="Image">
                     </figure>
                     <!-- end news-image -->
                     <div class="post-content">
