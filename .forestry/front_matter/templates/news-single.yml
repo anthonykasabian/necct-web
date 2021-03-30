@@ -26,11 +26,11 @@ fields:
     schema:
       format: markdown
   label: Description
-- name: page_header
+- name: page_media
   type: file
   config:
     maxSize: 64
-  label: Page Header
+  label: Page Media
 - name: slug
   type: text
   config:
