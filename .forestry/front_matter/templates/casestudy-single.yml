@@ -48,7 +48,7 @@ fields:
     required: false
     date_format: DD/MM/YYYY
     time_format: 
-    display_utc: false
+    display_utc: true
 - name: case_video
   type: text
   config:
