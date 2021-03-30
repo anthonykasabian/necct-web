@@ -1,6 +1,6 @@
 
-# Created by https://www.toptal.com/developers/gitignore/api/hugo,webstorm+all,macos,windows,node
-# Edit at https://www.toptal.com/developers/gitignore?templates=hugo,webstorm+all,macos,windows,node
+# Created by https://www.toptal.com/developers/gitignore/api/webstorm+all,node,macos,windows,hugo
+# Edit at https://www.toptal.com/developers/gitignore?templates=webstorm+all,node,macos,windows,hugo
 
 ### Hugo ###
 # Generated files by hugo
@@ -132,6 +132,14 @@ typings/
 .nuxt
 dist
 
+# Storybook build outputs
+.out
+.storybook-out
+storybook-static
+
+# rollup.js default build output
+dist/
+
 # Gatsby files
 .cache/
 # Comment in the public line in if your project uses Gatsby and not Next.js
@@ -156,12 +164,15 @@ dist
 # Stores VSCode versions used for testing VSCode extensions
 .vscode-test
 
+# Temporary folders
+tmp/
+temp/
+
 ### WebStorm+all ###
 # Covers JetBrains IDEs: IntelliJ, RubyMine, PhpStorm, AppCode, PyCharm, CLion, Android Studio, WebStorm and Rider
 # Reference: https://intellij-support.jetbrains.com/hc/en-us/articles/206544839
 
 # User-specific stuff
-.idea/
 .idea/**/workspace.xml
 .idea/**/tasks.xml
 .idea/**/usage.statistics.xml
@@ -272,4 +283,4 @@ $RECYCLE.BIN/
 # Windows shortcuts
 *.lnk
 
-# End of https://www.toptal.com/developers/gitignore/api/hugo,webstorm+all,macos,windows,node
+# End of https://www.toptal.com/developers/gitignore/api/webstorm+all,node,macos,windows,hugo
