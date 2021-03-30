@@ -64,3 +64,4 @@ fields:
     required: false
   label: Slug
   description: It's for nice SEO links
+  default: '{{ replace .Name "-" " " | title }}'
