@@ -1,8 +1,11 @@
 +++
 layout = "about"
-page_media = "/videos/video2.mp4"
+page_media = ""
 page_subtitle = "AND MEET THE INNOVATION SQUAD OF THE FUTURE"
 page_title = "GET TO KNOW"
+page_video = "https://res.cloudinary.com/codecentric-ag/video/upload/v1617027534/necct-io/2021/03/default_video_background_jd9ahe.webm"
+subtitle = "The innovation team of codecentric AG"
+title = "Welcome to NECCT"
 type = "pages"
 url = "/about"
 [[page_sections]]
