@@ -26,6 +26,15 @@ fields:
     schema:
       format: markdown
   label: Case Short Description
+- name: case_description
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: true
+    schema:
+      format: markdown
+  label: Case Description
 - name: case_workarea
   type: text
   config:
