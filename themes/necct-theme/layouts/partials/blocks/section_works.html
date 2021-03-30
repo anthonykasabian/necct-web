@@ -10,7 +10,18 @@
                 {{range .works.works_selection}}
                     {{with site.GetPage .work_item}}
                     <div class="project-box wow fadeIn" data-bg="#faf8ed">
-                        <figure> <a href="{{site.Params.cloudinary_url}}{{.Params.page_media}}" data-fancybox><img src="{{site.Params.cloudinary_url}}/w300/h200/c_crop{{.Params.page_media}}" alt="Image"></a></figure>
+
+                        {{ $image := newScratch }}
+                        {{ $image.Set "image" .Site.Params.default_thumbnail_nc}}
+                        {{ $imagePath := $image.Get "image" }}
+
+                        {{with .Params.page_media}}
+                            {{ $imageCloudinaryPath := printf "%s/%s%s" site.Params.cloudinary_url site.Params.news_thumb_crop . }}
+                            {{ $image.Set "image" $imageCloudinaryPath }}
+                            {{ $imagePath = $image.Get "image" }}
+                        {{end}}
+
+                        <figure> <a href="{{$imagePath}}" data-fancybox><img src="{{$imagePath}}" alt="Image"></a></figure>
                         <div class="content-box">
                             <div class="inner"> <small>{{.Params.tagline}}</small>
                                 <h3>{{.Params.title | safeHTML}}</h3>

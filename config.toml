@@ -3,8 +3,11 @@ languageCode = "de-DE"
 theme = "necct-theme"
 title = "NECCT"
 [params]
-cloudinary_url = "https://res.cloudinary.com/codecentric-ag/image/upload/"
+cloudinary_url = "https://res.cloudinary.com/codecentric-ag/image/upload"
 default_video = "https://res.cloudinary.com/codecentric-ag/video/upload/v1617027534/necct-io/2021/03/default_video_background_jd9ahe.webm"
+default_thumbnail_nc = "/images/default_thumbnail_nc.jpg"
+news_thumb_crop="ar_16:10,w_926,c_fill"
+profile_thumb_crop="ar_1:1,w_500,c_fill,g_face"
 [permalinks]
 casestudies = "/:slug"
 [[menu.main]]
