@@ -1,9 +1,9 @@
 <div class="video-bg">
-    <video src="{{.Params.page_media}}" muted loop autoplay></video>
+    <video src="{{ .Site.Params.cloudinary_url}}{{.Params.page_media}}" muted loop autoplay></video>
 </div>
 <!-- end video-bg -->
 <div class="container">
-    <h1>{{.Params.page_title}}</h1>
-    <p>{{.Params.page_subtitle}}</p>
+    <h1>{{.Title}}</h1>
+    <p>{{.Params.subtitle}}</p>
 </div>
 <!-- end container -->

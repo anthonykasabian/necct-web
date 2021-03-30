@@ -13,7 +13,7 @@
             <div class="col-12">
 
                 {{range .Pages}}
-                {{$path := .Resources.GetMatch (.Params.page_header)}}
+                {{$path := .Resources.GetMatch (.Params.page_media)}}
                 <div class="post wow fadeIn">
                     {{ printf "%#v" $path }}
                     <figure class="post-image">
