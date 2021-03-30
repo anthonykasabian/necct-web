@@ -15,7 +15,7 @@
                 {{range .Pages}}
                 {{$path := .Resources.GetMatch (.Params.page_media)}}
                 <div class="post wow fadeIn">
-                    {{ printf "%#v" $path }}
+                    {{/* printf "%#v" $path */}}
                     <figure class="post-image">
 
                         <img src="" alt="Image">
