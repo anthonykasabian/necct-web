@@ -3,10 +3,10 @@ author = "Toni East"
 date = 2020-01-26T23:11:13Z
 description = "You missed to enter a description for this piece of content. It's relevant for SEO and the teaser part for preview snippets."
 page_media = "/v1617026484/necct-io/2021/03/slide-01_rqprxr.jpg"
-slug = "welcome-necct-part-2"
+slug = "welcome-necct-part-3"
 subtitle = "A small introduction what we're doing"
 tags = ["foo", "bar"]
-title = "Welcome to NECCT Part 2"
+title = "Welcome to NECCT Part 3"
 
 +++
 A lot has happened in the area of innovation at codecentic in the past year. Like many other areas, it was strongly influenced by the uncertainties as well as opportunities brought about by the Corona pandemic.
